@@ -1,0 +1,12 @@
+{
+    "crons": [
+        {
+            "path": "/api/teacherAttendances/mark-teacher-absent?cronSecret=98cfb3a5-f859-4d1b-9c6c-7da29eb14f6e",
+            "schedule": "0 18 * * *"
+        },
+        {
+            "path": "/api/cron/missing-attendance?cronSecret=98cfb3a5-f859-4d1b-9c6c-7da29eb14f6e",
+            "schedule": "30 11 * * *"
+        }
+    ]
+}

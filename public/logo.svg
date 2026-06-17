@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 60">
+  <!-- S Icon -->
+  <circle cx="30" cy="30" r="25" fill="#006400" />
+  <text x="30" y="40" font-family="Montserrat, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">S</text>
+
+  <!-- SCOFIST Text -->
+  <text x="70" y="40" font-family="Montserrat, sans-serif" font-size="30" font-weight="bold" fill="#006400" letter-spacing="2">SCOFIST</text>
+</svg>
