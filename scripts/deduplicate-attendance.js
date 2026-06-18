@@ -4,8 +4,7 @@ import { config } from "dotenv";
 
 config({ path: ".env.local" });
 
-const MONGODB_URI =
-  "mongodb+srv://abdullakk:abdullakk3030@sdc.qw7au9k.mongodb.net/scofist?retryWrites=true&w=majority&appName=SDC";
+const MONGODB_URI = process.env.MONGODB_URI;
 
 const DRY_RUN = process.env.DRY_RUN !== "false";
 
